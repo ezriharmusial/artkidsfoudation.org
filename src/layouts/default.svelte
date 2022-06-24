@@ -18,6 +18,7 @@
 
 	<Nav />
 	<div class="section">
+		<p class="title has-text-white">{title}</p>
 		<div class="box content">
 			<slot />
 		</div>
