@@ -13,7 +13,7 @@
 
 	<Nav />
 	<header class="hero is-medium is-warning is-bold">
-		<div class="hero-body">
+		<div class="hero-body py-0">
 			{#if thumbnail}
 			<figure class="image">
 				<img src="{thumbnail}" alt="{title}">
@@ -59,7 +59,7 @@
 	figcaption {
 		position: absolute;
 		left: 0;
-		top: 49vh;
+		top: 40vh;
 		padding: 0.5rem;
 	}
 
