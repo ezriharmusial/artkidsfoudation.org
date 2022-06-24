@@ -18,17 +18,19 @@
 			<figure class="image">
 				<img src="{thumbnail}" alt="{title}">
 				<figcaption class="notification is-black">
-					<p class="title">{title}</p>
+					<p class="title has-text-white">{title}</p>
 					{#if subtitle}
-					<p class="subtitle">{subtitle}</p>
+					<p class="subtitle has-text-white">{subtitle}</p>
 					{/if}
 				</figcaption>
 			</figure>
 			{:else}
-				<p class="title">{title}</p>
+			<div class="notification is-black" style="display:inline-block;">
+				<p class="title has-text-white">{title}</p>
 				{#if subtitle}
-				<p class="subtitle">{subtitle}</p>
+				<p class="subtitle has-text-white">{subtitle}</p>
 				{/if}
+			</div>
 			{/if}
 		</div>
 	</header>
@@ -46,10 +48,17 @@
 
 <style lang="scss">
 	@charset 'utf8';
-	.image figcaption {
-		position: absolute;
-		left: 0;
-		padding: 0.5rem;
+	.image {
+		position: relative;
+		max-height: 60vh;
+		overflow: hidden;
+
+		figcaption {
+			position: absolute;
+			left: 0;
+			top: 49vh;
+			padding: 0.5rem;
+		}
 	}
 	/* @import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 	@import "../../node_modules/bulma/sass/utilities/functions.sass";
