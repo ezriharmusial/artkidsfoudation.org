@@ -1,0 +1,28 @@
+@media screen and (min-width: 769px) {
+  header .hero-image {
+    max-height: 56.25%;
+  }
+
+  header .hero-image img {
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to top left, transparent 15%, black 90%);
+    mask-image: linear-gradient(to top left, transparent 15%, black 90%);
+  }
+
+  header .hero-body {
+    position: absolute;
+    z-index: 1;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  header .hero-body .columns {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+img.placeholder,
+img.main {
+  height:100%;
+}

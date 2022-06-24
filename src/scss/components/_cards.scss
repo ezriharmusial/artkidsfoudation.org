@@ -1,0 +1,14 @@
+.is-profile {
+  .card-profile-image {
+    position: relative;
+    top: -93px;
+    left: calc(50% - 65px);
+    max-width: 100%;
+    margin-bottom: -107px;
+
+    img {
+      border-radius: 50%;
+      border: 5px solid $card-background-color;
+    }
+  }
+}
