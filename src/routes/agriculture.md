@@ -1,5 +1,6 @@
 ---
 title: Agriculture
+subtitle: Farming for the Future
 nav_label: Agriculture
 thumbnail: /uploads/saf-logo-large.png
 ---
