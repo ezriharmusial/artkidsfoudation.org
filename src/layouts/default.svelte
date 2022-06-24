@@ -2,6 +2,8 @@
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
 	export let title;
+	export let nav_label
+	export let thumbnail
 </script>
 
 <svelte:head>
@@ -20,6 +22,8 @@
 	<div class="section">
 		<p class="title has-text-white">{title}</p>
 		<div class="box content">
+			nav label: {nav_label} <br />
+			thumbnail: {thumbnail}
 			<slot />
 		</div>
 	</div>

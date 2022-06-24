@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-# when using the default proxy server port
 collections:
   - name: pages
     label: pages
@@ -10,10 +9,13 @@ collections:
     fields:
       - name: title
       - name: nav_label
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - name: body
         widget: markdown
 media_folder: "static/uploads"
 public_folder: "/uploads"
+
+show_preview_links: true
 
 site_url: https://preview.artkidsfoundation.org
 # display_url: https://preview.artkidsfoundation.org
