@@ -8,6 +8,7 @@ collections:
     create: true
     fields:
       - name: title
+      - name: subtitle
       - name: nav_label
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - name: body

@@ -2,6 +2,7 @@
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
 	export let title;
+	export let subtitle;
 	export let nav_label
 	export let thumbnail
 </script>
@@ -13,10 +14,22 @@
 	<Nav />
 	<header class="hero is-medium is-warning is-bold">
 		<div class="hero-body">
+			{#if thumbnail}
 			<figure class="image">
 				<img src="{thumbnail}" alt="{title}">
-				<figcaption class="title">{title}</figcaption>
+				<figcaption class="notification is-black">
+					<p class="title">{title}</p>
+					{#if subtitle}
+					<p class="subtitle">{subtitle}</p>
+					{/if}
+				</figcaption>
 			</figure>
+			{:else}
+				<p class="title">{title}</p>
+				{#if subtitle}
+				<p class="subtitle">{subtitle}</p>
+				{/if}
+			{/if}
 		</div>
 	</header>
 
@@ -37,8 +50,6 @@
 		position: absolute;
 		left: 0;
 		padding: 0.5rem;
-		background-color: black;
-		color: white;
 	}
 	/* @import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 	@import "../../node_modules/bulma/sass/utilities/functions.sass";
