@@ -8,37 +8,43 @@
 
 <svelte:head>
 	<title>{title}</title>
-	<style>
-		header {
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: min(100%, 68ch);
-		}
-	</style>
 </svelte:head>
 
 	<Nav />
-	<div class="section">
-		<figure class="image">
-			<img src="{thumbnail}" alt="{title}">
-		</figure>
+	<header class="hero is-medium is-warning is-bold">
+		<div class="hero-body">
+			<figure class="image">
+				<img src="{thumbnail}" alt="{title}">
+				<figcaption class="title">{title}</figcaption>
+			</figure>
+		</div>
+	</header>
+
+	<main class="section">
 		<p class="title has-text-white">{title}</p>
+
 		<div class="box content">
 			nav label: {nav_label} <br />
 			<slot />
 		</div>
-	</div>
+	</main>
 	<Footer />
 
 
-<!--style lang="scss">
+<style lang="scss">
 	@charset 'utf8';
+	.image figcaption {
+		position: absolute;
+		left: 0;
+		padding: 0.5rem;
+		background-color: black;
+		color: white;
+	}
 	/* @import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 	@import "../../node_modules/bulma/sass/utilities/functions.sass";
 	*/
 
-	/** Colors */
+	/** Colors
 	$primary: #f3750a;
 	$secondary: #ffd800 !default;
 	$danger: #e62d2b;
@@ -51,14 +57,14 @@
 
 	$secondary-invert: $black !default;
 	$calm-invert: $white !default;
-
-	/** Link colors */
+*/
+	/** Link colors
 	$link: $primary;
-
-	/** Box Model */
+*/
+	/** Box Model
 	$spacer: 2rem;
-
-	/** Backgrounds */
+*/
+	/** Backgrounds
 	$body-background-color: $light;
 	$body-color: $dark;
 
@@ -82,6 +88,6 @@
 	),
 	$colors
 	);
+*/
 
-
-</style-->
+</style>
