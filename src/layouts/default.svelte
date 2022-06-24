@@ -17,7 +17,11 @@
 </svelte:head>
 
 	<Nav />
-	<slot />
+	<div class="section">
+		<div class="box content">
+			<slot />
+		</div>
+	</div>
 	<Footer />
 
 
