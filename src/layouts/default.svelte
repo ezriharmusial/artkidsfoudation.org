@@ -20,10 +20,12 @@
 
 	<Nav />
 	<div class="section">
+		<figure class="image">
+			<img src="{thumbnail}" alt="{title}">
+		</figure>
 		<p class="title has-text-white">{title}</p>
 		<div class="box content">
 			nav label: {nav_label} <br />
-			thumbnail: {thumbnail}
 			<slot />
 		</div>
 	</div>

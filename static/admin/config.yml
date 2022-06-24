@@ -3,7 +3,7 @@ backend:
   branch: main
 collections:
   - name: pages
-    label: pages
+    label: Pages
     folder: src/routes
     create: true
     fields:
