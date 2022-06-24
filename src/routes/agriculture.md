@@ -1,6 +1,7 @@
 ---
 title: Agriculture
 nav_label: Agriculture
+thumbnail: /uploads/saf-logo-large.png
 ---
 
 ### Introduction
