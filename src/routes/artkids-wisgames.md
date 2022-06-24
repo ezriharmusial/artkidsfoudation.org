@@ -1,5 +1,6 @@
 ---
 title: ArtKids WisGames
+subtitle: Interactive Edutainment
 nav_label: ArtKids WisGames
 ---
 Let's use interactive and edutainment games to develop and wisen-up the brains of our kids by intentionally exposing them to online, offline and network games that are designed to interactively transfer useful information and knowledge that charge Kids brains.
