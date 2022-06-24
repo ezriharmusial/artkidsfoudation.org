@@ -47,19 +47,21 @@
 
 
 <style lang="scss">
+	/* TODO: Fix crazy build styling error */
 	@charset 'utf8';
 	.image {
 		position: relative;
 		max-height: 60vh;
 		overflow: hidden;
-
-		figcaption {
-			position: absolute;
-			left: 0;
-			top: 49vh;
-			padding: 0.5rem;
-		}
 	}
+
+	figcaption {
+		position: absolute;
+		left: 0;
+		top: 49vh;
+		padding: 0.5rem;
+	}
+
 	/* @import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
 	@import "../../node_modules/bulma/sass/utilities/functions.sass";
 	*/
