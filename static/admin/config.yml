@@ -1,9 +1,10 @@
 backend:
   name: git-gateway
   branch: main
+# when using the default proxy server port
 collections:
-  - name: routes
-    label: routes
+  - name: pages
+    label: pages
     folder: src/routes
     create: true
     fields:
@@ -14,6 +15,6 @@ collections:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
-# site_url: https://your-site.com
-# display_url: https://your-site.com
-# logo_url: https://your-site.com/images/logo.svg
+site_url: https://preview.artkidsfoundation.org
+# display_url: https://preview.artkidsfoundation.org
+logo_url: https://preview.artkidsfoundation.org/logo-512.png
