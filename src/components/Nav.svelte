@@ -70,7 +70,7 @@
 				</a>
 				{#each routes as route}
 					<a class="navbar-item icon-text" title="go to {route.title}" href={route.path}>
-						{route.title}
+						{route.nav_label || route.title}
 					</a>
 				{/each}
 			</div>

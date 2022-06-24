@@ -36,10 +36,11 @@
 	</header>
 
 	<main class="section">
-		<p class="title has-text-white">{title}</p>
-
 		<div class="box content">
-			nav label: {nav_label} <br />
+			<p class="title">{title}</p>
+			{#if subtitle}
+			<p class="subtitle">{subtitle}</p>
+			{/if}
 			<slot />
 		</div>
 	</main>
