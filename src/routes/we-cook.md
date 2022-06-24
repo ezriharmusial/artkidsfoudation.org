@@ -1,6 +1,7 @@
 ---
 title: We-Cook
 nav_label: We-Cook
+thumbnail: /uploads/food-meal-cuisine-brunch-service-restaurant-1541363-pxhere.com.jpg
 ---
 "All works and no food makes kids weak and weak kids".
 One who learns to cultivate, plant, irrigate, nurture and harvest the food should do marvelously well in also knowing how to cook the food he or she produced. 
