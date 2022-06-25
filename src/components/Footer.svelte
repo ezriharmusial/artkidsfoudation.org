@@ -30,7 +30,7 @@
 </style>
 
 <footer>
-  <div class="hero is-black has-text-light">
+  <div class="hero is-dark has-text-light">
     <div class="hero-body">
       <div class="container">
         <div class="columns content">

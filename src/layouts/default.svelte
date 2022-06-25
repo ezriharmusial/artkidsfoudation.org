@@ -17,7 +17,7 @@
 			{#if thumbnail}
 			<figure class="image">
 				<img src="{thumbnail}" alt="{title}">
-				<figcaption class="notification is-black">
+				<figcaption class="notification is-dark">
 					<p class="title has-text-white">{title}</p>
 					{#if subtitle}
 					<p class="subtitle has-text-white">{subtitle}</p>
@@ -25,7 +25,7 @@
 				</figcaption>
 			</figure>
 			{:else}
-			<div class="notification is-black" style="display:inline-block;">
+			<div class="notification is-dark" style="display:inline-block;">
 				<p class="title has-text-white">{title}</p>
 				{#if subtitle}
 				<p class="subtitle has-text-white">{subtitle}</p>
