@@ -42,15 +42,15 @@
 </style>
 
 <header class="banner">
-	<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+	<nav class="navbar is-fixed-top is-dark" aria-label="main navigation">
 		<div class="navbar-brand">
 			<a class="navbar-item has-text-weight-bold is-italic has-text-shadow is-size-5" href="/" on:click={foldMenu}>
 				<span class="icon">
 					<img src="/logo-192.png" alt="EkeSolar Unlimited: Funding Happiness" width="30" height="30">
 				</span>
 				<span>
-					<span class="artkids has-text-info">ArtKids</span>
-					<span class="foundation has-text-success">Foundation</span>
+					<span class="artkids has-text-danger">ArtKids</span>
+					<span class="foundation has-text-warning">Foundation</span>
 				</span>
 			</a>
 

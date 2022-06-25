@@ -45,3 +45,19 @@
 		</div>
 	</main>
 	<Footer />
+
+
+<style global lang="scss">
+	.image {
+		position: relative;
+		max-height: 60vh;
+		overflow: hidden;
+	}
+
+	figcaption {
+		position: absolute;
+		left: 0;
+		top: 40vh;
+		padding: 0.5rem;
+	}
+</style>
