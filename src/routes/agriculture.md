@@ -1,15 +1,23 @@
 ---
-title: Agriculture
-subtitle: Farming for the Future
-nav_label: Agriculture
+title: Landbouw
+subtitle: Boeren voor de toekomst
+nav_label: Landbouw
 thumbnail: /uploads/saf-logo-large.png
 ---
+### Introductie
 
-### Introduction
-Undoubtedly, good food is the most essential when it concerns life and healthy-living. To live our lives, we require the nutrients contained in the foods we eat. The food we eat can either save us, weaken us or kill us.
-There are two major ways we can obtain quality non-GMO foods; either we pay high prices and buy them from organic food stores or we plant them by ourselves. 
-The later is not only cheaper but guarantees highest quality of food.
-To be able to have the culture of agriculture inculcated into our kids, we must teach our kids how to plant, nurture, harvest and store good. 
-This is the reason why Artkids foundation has launched various kids-farming initiatives to transfer our knowledge of agriculture to our next generation who will also transfer theirs to their next generation. Endlessly so.
-Apart from producing the food we consume, another advantage of farming is our interactions with mother nature via the soil, leaves and roots as we cultivate the land and plant seeds. 
-It's unbelievanle that the world left agriculture for white-collar jobs. Its time to retrace our steps. Lets go!!!!
+Ongetwijfeld is goed eten het meest essentieel als het gaat om leven en gezond leven. Om ons leven te leiden, hebben we de voedingsstoffen nodig die aanwezig zijn in het voedsel dat we eten. Het voedsel dat we eten kan ons redden, verzwakken of doden.
+
+Er zijn twee belangrijke manieren waarop we kwalitatief hoogstaand niet-GMO(GGO)-voedsel kunnen verkrijgen; of we betalen hoge prijzen en kopen ze in biologische voedingswinkels of we planten ze zelf.
+
+Dit laatste is niet alleen goedkoper, maar garandeert ook de hoogste kwaliteit van het voedsel.
+
+Om de landbouwcultuur in onze kinderen te kunnen inprenten, moeten we onze kinderen leren hoe ze goed moeten planten, verzorgen, oogsten en bewaren.
+
+Dit is de reden waarom Stichting Artkids Foundation verschillende kinderlandbouwinitiatieven heeft gelanceerd om onze kennis van landbouw over te dragen aan onze volgende generatie. Zodat zij hun kennis ook zal overdragen aan hun volgende generatie. Eindeloos dus.
+
+Afgezien van het produceren van het voedsel dat we consumeren, is een ander voordeel van landbouw onze interactie met moeder natuur via de grond. 
+
+Bladeren en wortels terwijl we het land verbouwen en zaden planten. Het is ongelooflijk dat de wereld de landbouw verliet voor witteboordenbanen. Het is tijd om op onze stappen terug te keren. 
+
+Laten we gaan!!!!
