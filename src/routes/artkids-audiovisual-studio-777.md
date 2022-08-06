@@ -2,16 +2,17 @@
 title: "ArtKids AudioVisual Studio #777"
 nav_label: AAVS777
 ---
-Once a creative musical or theatrical talent is identified through 'DiscoverME TalentHunt, ArtKids signs the upcoming artists and comfortably produces the artists in our State of the Art  Studio (ArtKids AudioVisual Studio 777). 
+Zodra een creatief muzikaal of theatraal talent is geïdentificeerd via 'DiscoverME TalentHunt', tekent ArtKids de opkomende artiesten en produceert hun werk in onze State of the Art Studio (ArtKids AudioVisual Studio 777).
 
-This way, ArtKids Foundation leaves no stone unturned in ensuring that our discovered upcoming artists are never stranded or hopeless.
+Op deze manier laat ArtKids Foundation geen middel onbeproefd om ervoor te zorgen dat onze ontdekte opkomende artiesten nooit gestrand of hopeloos zijn.
 
-Beside professional music production, ArtKids Audiovisual Studio 777 produces video clips for our upcoming artists. 
-This way, ArtKids upcoming artists would not have to worry for the funding of both their music and their video clips productions.
+Naast professionele muziekproductie, produceert ArtKids Audiovisual Studio 777 videoclips voor onze opkomende artiesten.
 
-Join ArtKids to discover, sponsor and promote them young. To sponsor an artists
+Op deze manier hoeven opkomende artiesten van ArtKids zich geen zorgen te maken over de financiering van zowel hun muziek als hun videoclips.
 
-~Click here
-Donate
-Grant
+Sluit je aan bij ArtKids om ze jong te ontdekken, sponsoren en promoten. Een artiest sponsoren
+
+~Klik hier
+Doneren
+Studiebeurs
 Sponsor
