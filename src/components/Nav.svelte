@@ -36,7 +36,7 @@
 		</div>
 
 		{#if menuActive}
-		<div class="nav-background has-background-dark is-hidden-desktop"></div
+		<div class="nav-background has-background-dark is-hidden-desktop"></div>
 		{/if}
 		<div class="navbar-menu nav-menu" class:is-active={menuActive} transition:fade>
 			<div class="navbar-start">
