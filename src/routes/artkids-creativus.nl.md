@@ -9,6 +9,7 @@ In deze delen van de wereld "werken mensen met mensen".
 Via het ArtKids CreativUs-programma worden wederzijds voordelige samenwerkingen aangemoedigd.
 
 Door middelen bij elkaar te brengen (intellect, concepten, financiën, mankracht, materialen, organisatie, grondstoffen, ideeën, HR etc.) wordt een wederzijds voordelige (win-win) duurzame relatie tussen de samenwerkende partijen gecementeerd.
+
 Dit is het doel van het ArtKids CreativUs-programma onder ACBi.
 
 Sluit je nu bij ons aan. Klik hier
