@@ -5,7 +5,7 @@
 </script>
 
 <section class={sectionClass}>
-  <h4 class="title">CEO: Ekesolar Unlimited</h4>
+  <h4 class="title">CEO: ArtKids Foundation</h4>
   <div class="card is-profile has-background-dark">
     <div class="card-image">
       <figure>
@@ -24,11 +24,11 @@
     </div>
     <div class="card-content content text-center has-text-light">
       <p class="title is-size-5 has-text-secondary">Eng. Ezekwesiri E. Obioha</p>
-      <p class="subtitle is-size-6 has-text-light">CEO: Ekesolar Unlimited</p>
+      <p class="subtitle is-size-6 has-text-light">CEO: ArtKids Foundation</p>
       <p>
-        e: <a href="mailto:info@ekesolar.com"
+        e: <a href="mailto:info@artkidsfoundation.org"
           class="has-text-secondary"
-          title="Email Eng. Ezekwesiri E. Obioha">info@ekesolar.com</a>
+          title="Email Eng. Ezekwesiri E. Obioha">info@artkidsfoundation.org</a>
         <br>
         t: <a href="tel:+234 (0)81 601 451 77"
           class="has-text-secondary"
@@ -51,7 +51,7 @@
 </section>
 
 <section class={sectionClass}>
-  <h4 class="title">Managing Director: EkeSolar Europe</h4>
+  <h4 class="title">Managing Director: ArtKids Foundation Europe</h4>
   <div class="card is-profile has-background-dark">
     <div class="card-image">
       <figure>
@@ -70,11 +70,11 @@
     </div>
     <div class="card-content content text-center has-text-light">
       <p class="title is-size-5 has-text-secondary">Bastiaan M. Bijleveld</p>
-      <p class="subtitle is-size-6 has-text-light">Managing Director: EkeSolar Europe</p>
+      <p class="subtitle is-size-6 has-text-light">Managing Director: ArtKids Foundation Europe</p>
       <p>
-        e: <a href="mailto:europe@ekesolar.com"
+        e: <a href="mailto:europe@artkidsfoundation.org"
           class="has-text-secondary"
-          title="Email Bas Bijleveld">europe@ekesolar.com</a>
+          title="Email Bas Bijleveld">europe@artkidsfoundation.org</a>
         <br>
         t: <a href="tel:+31(0)6 285 86 335"
           class="has-text-secondary"
@@ -114,11 +114,11 @@
     </div>
     <div class="card-content content text-center">
       <p class="title is-size-5 has-text-secondary">Ezri D. Harmusial</p>
-      <p class="subtitle has-text-light is-size-6">Director of International Business: EkeSolar</p>
+      <p class="subtitle has-text-light is-size-6">Director of International Business: ArtKids Foundation</p>
       <p>
-        e: <a href="mailto:international@ekesolar.com"
+        e: <a href="mailto:international@artkidsfoundation.org"
           class="has-text-secondary"
-          title="Email Ezri Harmusial">international@ekesolar.com</a>
+          title="Email Ezri Harmusial">international@artkidsfoundation.org</a>
         <br>
         t: <a
           class="has-text-secondary"
@@ -140,7 +140,7 @@
 </section>
 
 <section class={sectionClass}>
-  <h4 class="title">Director: Ekesolar Africa</h4>
+  <h4 class="title">Director: ArtKids Foundation Africa</h4>
   <div class="card is-profile has-background-dark">
     <div class="card-image">
       <figure>
@@ -159,11 +159,11 @@
     </div>
     <div class="card-content content text-center has-text-light">
       <p class="title is-size-5 has-text-secondary"> Chibundu Mmeri Obioha</p>
-      <p class="subtitle is-size-6 has-text-light">Director: Ekesolar Africa</p>
+      <p class="subtitle is-size-6 has-text-light">Director: ArtKids Foundation Africa</p>
       <p>
-        e: <a href="mailto:africa@ekesolar.com"
+        e: <a href="mailto:africa@artkidsfoundation.org"
           class="has-text-secondary"
-          title="Email Chibundu Mmeri Obioha">africa@ekesolar.com</a>
+          title="Email Chibundu Mmeri Obioha">africa@artkidsfoundation.org</a>
         <br>
         t: <a href="tel:+234 (0)81 484 874 27"
           class="has-text-secondary"
@@ -197,9 +197,9 @@
       <p class="title is-size-5 has-text-secondary"> Mazi Chidiebere S. Oledibe</p>
       <p class="subtitle is-size-6 has-text-light">Senior Electricity Consultant/advisor</p>
       <p class="content">
-        e: <a href="mailto:c.s.oledibe@ekesolar.com"
+        e: <a href="mailto:c.s.oledibe@artkidsfoundation.org"
           class="has-text-secondary"
-          title="Email Mazi Chidiebere S. Oledibe">c.s.oledibe@ekesolar.com
+          title="Email Mazi Chidiebere S. Oledibe">c.s.oledibe@artkidsfoundation.org
         </a>
         <br>
         t: <a href="tel:+234 80 308 748 49"

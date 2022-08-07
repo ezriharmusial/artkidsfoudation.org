@@ -20,7 +20,7 @@
     "registerFor": "Registrer for",
     "loading": "Sending your Message",
     "error": "An Error occcured",
-    "tryEmail": "Please try again later, or send us an email manually to info@ekesolar.com.",
+    "tryEmail": "Please try again later, or send us an email manually to info@artkidsfoundation.org.",
     "thankyou": "Thank You for Registering",
     "confirm": "Your registration will be confirmed by email, as soon as it has been reviewed by us.",
     "register": "register",
@@ -43,7 +43,7 @@
     "registerFor": "Registreer mij voor",
     "loading": "Bezig met het versturen van uw Bericht",
     "error": "Er is iets mis gegaan",
-    "tryEmail": "Probeert u het alstublieft later nog een keer of stuur ons handmatig een email naar info@ekesolar.com",
+    "tryEmail": "Probeert u het alstublieft later nog een keer of stuur ons handmatig een email naar info@artkidsfoundation.org",
     "thankyou": "Bedankt voor uw Registratie",
     "confirm": "Uw registratie wordt via email bevestigd, zodra het door ons is behandeld.",
     "register": "Registreer",
@@ -244,14 +244,14 @@
       <div class="field">
         <label class="checkbox" for="consent">
           <input type="checkbox" id="consent" name="consent" bind:checked={consent} disabled={loading || success}>
-          { locale[$lang].consent } <a href="https://ekesolar.com/">EkeSolar</a> { locale[$lang].store_use } <i>{subject}</i>.
+          { locale[$lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[$lang].store_use } <i>{subject}</i>.
         </label>
       </div>
 
       <div class="field">
         <label class="checkbox" for="sendmail">
           <input type="checkbox" id="sendmail" name="sendmail" bind:checked={sendMail} disabled={loading || success}>
-          { locale[$lang].consent } <a href="https://ekesolar.com/">EkeSolar</a> { locale[$lang].email_registration }.
+          { locale[$lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[$lang].email_registration }.
         </label>
       </div>
 

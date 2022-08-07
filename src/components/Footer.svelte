@@ -5,14 +5,14 @@
   const locale = {}
   locale['en']= {
       title: "Have Questions?",
-      gotquestions: "If you have any Questions or Remarks concerning EkeSolar Unlimited or EkeSolar Unlimited related Projects and Businesses, Please feel free to contact us anytime.",
+      gotquestions: "If you have any Questions or Remarks concerning ArtKids Foundation or ArtKids Foundation related Projects and Businesses, Please feel free to contact us anytime.",
       contactus: "Contact us",
       rightsreserved: ""
   }
 
   locale['nl']= {
       title: "Heeft u Vragen?",
-      gotquestions: "Als u Vragen of Opmerkingen met betrekking tot EkeSolar Unlimited of Ekesolar Unlimted gerelateerde Projecten en Businesses, voelt u vrij om ons op elk moment te contacteren.",
+      gotquestions: "Als u Vragen of Opmerkingen met betrekking tot ArtKids Foundation of ArtKids Foundation gerelateerde Projecten en Businesses, voelt u vrij om ons op elk moment te contacteren.",
       contactus: "Contact",
       rightsreserved: ""
   }
@@ -63,7 +63,7 @@
       <div class="level">
         <div class="level-left">
           <p>
-            <span>Copyright © 2020-2022 | All rights reserved to EkeSolar.com</span>
+            <span>Copyright © 2020-2022 | All rights reserved to ArtKids Foundation</span>
           </p>
         </div>
         <div class="level">
