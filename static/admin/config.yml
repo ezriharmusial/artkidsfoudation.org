@@ -15,10 +15,6 @@ i18n:
   # The locale to be used for fields validation and as a baseline for the entry.
   default_locale: en
 collections:
-  - name: i18n_content
-    # same as the top level, but all fields are optional and defaults to the top level
-    # can also be a boolean to accept the top level defaults
-    i18n: true
   - name: pages
     label: Pages
     label_singular: 'Page'
