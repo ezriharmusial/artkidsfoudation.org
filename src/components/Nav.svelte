@@ -38,7 +38,7 @@
 		{#if menuActive}
 		<div class="nav-background has-background-dark is-hidden-desktop"></div>
 		{/if}
-		<div class="navbar-menu nav-menu" class:is-active={menuActive} transition:fade>
+		<div class="navbar-menu nav-menu" class:is-active={menuActive}>
 			<div class="navbar-start">
 				<div class="navbar-item">
 					<LanguageSelector />
@@ -81,6 +81,19 @@
 
 			&:nth-child(3) {
 				transform: translateY(-5px) rotate(-45deg);
+			}
+		}
+	}
+
+	@media screen and (max-width:1024px) {
+		.nav-menu {
+			transition: opacity 0.5s;
+			display: none;
+			opacity: 0;
+
+			&.is-active {
+				display: block;
+				opacity: 1;
 			}
 		}
 	}

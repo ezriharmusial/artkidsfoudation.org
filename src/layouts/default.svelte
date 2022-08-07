@@ -32,7 +32,7 @@
 		</div>
 	</header>
 
-	<main>
+	<main class="container">
 		<div class="box content">
 			<p class="title is-size-3-mobile">{title}</p>
 			{#if subtitle}
