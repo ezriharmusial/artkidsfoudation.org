@@ -1,3 +1,7 @@
+---
+title: Talent&Creativity
+nav_label: Talent&Creativity
+---
 Invoering
 
 Ieder mens op aarde is van nature begiftigd met talenten en creativiteit.

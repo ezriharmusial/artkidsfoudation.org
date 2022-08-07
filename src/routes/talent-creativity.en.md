@@ -1,6 +1,6 @@
 ---
-title: " Talent&Creativity"
-nav_label: " Talent&Creativity"
+title: Talent&Creativity
+nav_label: Talent&Creativity
 ---
 ### Introduction
 
