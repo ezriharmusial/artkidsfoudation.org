@@ -1,12 +1,14 @@
 backend:
   name: git-gateway
   branch: main
+
+  local_backend: true
 i18n:
   # Required and can be one of multiple_folders, multiple_files or single_file
   # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
   # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
   # single_file - persists a single file in `<folder>/<slug>.<extension>`
-  structure: multiple_folders
+  structure: multiple_files
 
   # Required - a list of locales to show in the editor UI
   locales: [en, nl]
@@ -29,11 +31,11 @@ collections:
       - name: title
         i18n: true
       - name: subtitle
-        required: false
         i18n: true
+        required: false
       - name: nav_label
-        required: false
         i18n: true
+        required: false
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - name: body
         i18n: true

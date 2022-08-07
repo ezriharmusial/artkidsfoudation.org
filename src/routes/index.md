@@ -2,6 +2,7 @@
 title: ArtKids Foundation
 nav_label: ArtKids Foundation
 ---
+
 ### Introduction
 Fully Registered in and operational from The Netherlands, ArtKids Foundation is a not-for-profit and non-govenmental Organisation  (Capacity-Building NGO). Over the years, ArtKids Foundation has discovered young talents, empowered women, sponsored ideas/concepts and motivated many to realise their dreams and potentials.
 Operational in selected countries of the world, ArtKids Foundation has launched many life-changing initiatives, providing funding where there is no fund as well as transfering knowledge to our inexperienced youths.
