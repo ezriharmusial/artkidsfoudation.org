@@ -36,8 +36,9 @@
 		</div>
 
 		{#if menuActive}
-		<div class="nav-background has-background-dark"></div>
-		<div class="navbar-menu nav-menu is-active" transition:fade>
+		<div class="nav-background has-background-dark is-hidden-desktop"></div
+		{/if}
+		<div class="navbar-menu nav-menu" class:is-active={menuActive} transition:fade>
 			<div class="navbar-start">
 				<div class="navbar-item">
 					<LanguageSelector />
@@ -51,7 +52,6 @@
 				{/if}
 			</div>
 		</div>
-		{/if}
 	</nav>
 </header>
 
