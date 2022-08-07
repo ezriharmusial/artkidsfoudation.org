@@ -4,7 +4,7 @@
 	import { routes } from "../stores/UI"
 	import LanguageSelector from "./Language-Selector.svelte";
 
-	let menuActive = false;
+	let menuActive = true;
 
 	function toggleMenu() {
 		menuActive = !menuActive
