@@ -2,7 +2,7 @@
 title: ArtKids Young-Inventors (AYI)
 nav_label: ArtKids Young-Inventors
 ---
-Technically speaking, our kids are gifted with various degrees of incentive and/or innovative prowesses. 
+Technically speaking, our kids are gifted with various degrees of incentive and/or innovative processes. 
 
 To harness these inventive talents and practically empower these kids, two things are needed; 
 
