@@ -1,6 +1,7 @@
 ---
 title: ArtKids CreativUs
 nav_label: ArtKids CreativUs
+thumbnail: /uploads/creativus.jpg
 ---
 'Us' and 'We' are magical words when it comes to Mutually Beneficial Ventures (MBVs). 'Us' and 'We' gave birth to 'Company'. 
 
