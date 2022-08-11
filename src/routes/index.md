@@ -1,6 +1,8 @@
 ---
 title: ArtKids Foundation
 nav_label: ArtKids Foundation
+subtitle: Welcome Home
+thumbnail: /uploads/saf-logo-large.png
 ---
 
 ### Introduction

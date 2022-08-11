@@ -1,8 +1,7 @@
-<script>
-	export let title
-	export let subtitle
-	export let nav_label
-	export let thumbnail
+<script lang="ts">
+	export let title: string
+	export let subtitle: string
+	export let thumbnail: string
 </script>
 
 <svelte:head>
@@ -43,16 +42,16 @@
 	.is-fullheight {
 		margin-bottom: -15vh;
 		margin-top: calc(-15vh + 52px);
+	}
 
-		.image {
-			flex-grow: 1;
-			max-height: 60vh;
-			overflow: hidden;
+	.image {
+		flex-grow: 1;
+		max-height: 60vh;
+		overflow: hidden;
+	}
 
-			figcaption {
-				position: absolute;
-				bottom: 0;
-			}
-		}
+	figcaption {
+		position: absolute;
+		bottom: 0;
 	}
 </style>
