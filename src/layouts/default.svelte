@@ -10,48 +10,52 @@
 
 	<header class="hero is-fullheight is-warning is-bold">
 		<div class="hero-body">
-			{#if thumbnail}
-			<figure class="image">
-				<img src="{thumbnail}" alt="{title}">
-				<figcaption class="notification is-dark">
-					<p class="title is-size-4-mobile has-text-white">{title}</p>
-					{#if subtitle}
-					<p class="subtitle is-size-5-mobile has-text-white">{subtitle}</p>
-					{/if}
-				</figcaption>
-			</figure>
-			{:else}
-			<div class="notification is-dark" style="display:inline-block;">
-				<p class="title has-text-white is-size-4-mobile">{title}</p>
+				{#if thumbnail}
+				<figure class="image">
+					<img src="{thumbnail}" alt="{title}">
+				</figure>
+				{/if}
+		</div>
+		<div class="hero-foot">
+		<div class="container">
+			<div class="section">
+			<div class="notification is-dark">
+				<p class="title is-size-4-mobile has-text-white">{title}</p>
 				{#if subtitle}
 				<p class="subtitle is-size-5-mobile has-text-white">{subtitle}</p>
 				{/if}
 			</div>
-			{/if}
+			</div>
+		</div>
 		</div>
 	</header>
 
 	<main class="container">
-		<div class="box content">
+		<div class="box section content">
 			<slot />
 		</div>
 	</main>
 
 
 <style global lang="scss">
-	.is-fullheight {
-		margin-bottom: -15vh;
-		margin-top: calc(-15vh + 52px);
+	.hero.is-fullheight {
+		min-height: 75vh !important;
 	}
 
 	.image {
-		flex-grow: 1;
-		max-height: 60vh;
-		overflow: hidden;
+		max-width: 1248px;
+		max-height: 70vh;
+		margin: 0 auto;
 	}
 
-	figcaption {
-		position: absolute;
-		bottom: 0;
+	// figcaption {
+	// 	position: absolute;
+	// 	bottom: 0;
+	// }
+
+	@media screen and (max-width:1024px) {
+		.hero.is-fullheight {
+			min-height: 50vh !important;
+		}
 	}
 </style>

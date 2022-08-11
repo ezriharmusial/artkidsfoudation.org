@@ -99,4 +99,9 @@
 	}
 
 	.navbar-item { text-transform: capitalize }
+
+
+	.navbar.has-shadow {
+		box-shadow: 0 10px 26px 11px rgb(0 0 0 / 30%);
+	}
 </style>
