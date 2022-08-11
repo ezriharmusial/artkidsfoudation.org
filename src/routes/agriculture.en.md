@@ -2,7 +2,7 @@
 title: Agriculture
 subtitle: Farming for the future
 nav_label: Agriculture
-thumbnail: /uploads/saf-logo-large.png
+thumbnail: /uploads/agric.jpg
 ---
 ### Introduction
 
