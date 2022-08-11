@@ -48,24 +48,21 @@
 		margin: 0 auto;
 	}
 
-	// figcaption {
-	// 	position: absolute;
-	// 	bottom: 0;
-	// }
-
 	@media screen and (max-width:1024px) {
 		.hero.is-fullheight {
 			min-height: 50vh !important;
 			max-height: 50vh !important;
 
-			.image {
-				max-height: 50vh !important;
-			}
-
-			.hero-body {
-				padding-top: 0;
-			}
 		}
+
+		.image {
+			max-height: 50vh !important;
+		}
+
+		.hero-body margin{
+			padding-top: 0;
+		}
+
 	}
 
 	.notification {
