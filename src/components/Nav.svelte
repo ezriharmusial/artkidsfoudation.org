@@ -16,7 +16,7 @@
 </script>
 
 <header class="banner">
-	<nav class="navbar is-fixed-top is-dark" aria-label="main navigation">
+	<nav class="navbar is-fixed-top is-spaced has-shadow is-dark" aria-label="main navigation">
 		<div class="navbar-brand">
 			<a class="navbar-item has-text-weight-bold is-italic has-text-shadow is-size-5" href="/" on:click={foldMenu}>
 				<span class="icon">
