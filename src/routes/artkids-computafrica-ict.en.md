@@ -1,6 +1,7 @@
 ---
 title: Artkids ComputAfrica (ICT)
 nav_label: Artkids ComputAfrica
+thumbnail: /uploads/computeafrica.jpg
 ---
 Through the dedicated services of youthful Computer technology trainers, ArtKids is transferring the knowledge of Computers (ICT) to our younger ones and at the same time, engage them in businesses using ICT as  driver. This way, our kids would practically use the acquired knowledge of ICT to transact businesses and generate income while still learning the practical use of ICT.
 
