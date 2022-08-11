@@ -10,22 +10,5 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  <script>
-    var PagePreview = createClass({
-      render: function() {
-        var entry = this.props.entry;
-        var image = entry.getIn(['data', 'thumbnail']);
-        var bg = this.props.getAsset(thumbnail);
-        return h('div', {},
-        h('p', {"className": "title is-size-4-mobile has-text-white"}, entry.getIn(['data', 'title'])),
-        h('h1', {"className": "subtitle is-size-5-mobile has-text-white"}, entry.getIn(['data', 'subtitle'])),
-        h('img', {"classsrc": bg.toString()}),
-        h('div', {"className": "text"}, this.props.widgetFor('body'))
-        );
-      }
-    });
-
-    CMS.registerPreviewTemplate("pages", PagePreview);
-  </script>
 </body>
 </html>
