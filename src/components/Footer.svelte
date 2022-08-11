@@ -33,9 +33,9 @@
   <div class="hero is-dark has-text-light">
     <div class="hero-body">
       <div class="container">
-        <div class="columns content">
+        <section class="section">
+          <div class="content">
 
-          <section class="widget content column text-3 widget_text">
             <h3 class="subtitle has-text-secondary is-italic">{locale[lang].title}</h3>
             <div class="textwidget">
               <p>{locale[lang].gotquestions}</p>
@@ -48,8 +48,8 @@
                 </a>
               </p>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
     </div>
   </div>
