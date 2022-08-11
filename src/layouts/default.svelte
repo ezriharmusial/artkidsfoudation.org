@@ -42,7 +42,7 @@
 <style global lang="scss">
 	.is-fullheight {
 		margin-bottom: -15vh;
-		margin-top: calc(-15vh + 52px );
+		margin-top: calc(-15vh + 52px);
 
 		.image {
 			flex-grow: 1;
