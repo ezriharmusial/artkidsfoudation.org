@@ -1,7 +1,7 @@
-<script lang="ts">
-	export let title: string
-	export let subtitle: string
-	export let thumbnail: string
+<script>
+	export let title
+	export let subtitle
+	export let thumbnail
 </script>
 
 <svelte:head>
