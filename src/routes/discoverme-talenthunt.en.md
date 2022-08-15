@@ -1,6 +1,7 @@
 ---
 title: " DiscoverME (TalentHunt)"
 nav_label: " DiscoverME"
+thumbnail: /uploads/discover-me-2.jpg
 ---
 In our various communities, we are bordered seeing our jobless youths parading our streets and committing one crime or another. The truth is that most of these younger ones are not skilled on any professional jobs; thus, are unemployable. 
 One area we have often failed to look at when it comes to having these kids engaged in money-making ventures is the discovery of their various musical talents. 
