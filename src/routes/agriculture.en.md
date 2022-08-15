@@ -3,6 +3,7 @@ title: Agriculture
 subtitle: Farming for the future
 nav_label: Agriculture
 thumbnail: /uploads/agric.jpg
+changed: /uploads/agric-2.jpg
 ---
 ### Introduction
 
