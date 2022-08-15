@@ -2,6 +2,7 @@
 title: "ArtKids Capacity Building Initiatives (ACBi) "
 nav_label: ACBi
 thumbnail: /uploads/capacity.jpg
+changed: /uploads/capacity-2.jpg
 ---
 ### Introduction
 
