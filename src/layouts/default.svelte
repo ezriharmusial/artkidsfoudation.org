@@ -2,6 +2,7 @@
 	export let title
 	export let subtitle
 	export let thumbnail
+	export let changed
 </script>
 
 <svelte:head>
@@ -35,7 +36,26 @@
 		</div>
 	</main>
 
+	<footer class="hero is-fullheight is-warning is-bold">
+	<div class="hero-body">
 
+		{#if changed}
+				<figure class="image">
+					<img src="{changed}" alt="{title}">
+				</figure>
+				{/if}
+	</div>
+		<div class="hero-foot">
+		<div class="container">
+			<div class="notification is-dark">
+				<p class="title is-size-4-mobile has-text-white">{title}</p>
+				{#if subtitle}
+				<p class="subtitle is-size-5-mobile has-text-white">{subtitle}</p>
+				{/if}
+			</div>
+		</div>
+		</div>
+	</footer>
 <style global lang="scss">
 	.hero.is-fullheight {
 		min-height: 75vh !important;
