@@ -2,6 +2,7 @@
 title: Talent&Creativity
 nav_label: Talent&Creativity
 thumbnail: /uploads/talent-and-creativity.jpg
+changed: /uploads/talent-and-creativity-2.jpg
 ---
 ### Introduction
 
