@@ -2,6 +2,7 @@
 title: KidsFarm
 nav_label: KidsFarm
 thumbnail: /uploads/kidsfarm.jpg
+changed: /uploads/kidsfarm-2.jpg
 ---
 In cooperation with school pupils, parents and teachers, ArtKids Foundation has launched KidsFarm in rural areas from country to country. ArtKids Foundation secures farmland preferably near the partner-school. 
 
