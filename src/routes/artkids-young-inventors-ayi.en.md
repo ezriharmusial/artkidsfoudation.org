@@ -1,6 +1,8 @@
 ---
 title: ArtKids Young-Inventors (AYI)
 nav_label: ArtKids Young-Inventors
+thumbnail: /uploads/younginventors.jpg
+changed: /uploads/younginventors-2.jpg
 ---
 Technically speaking, our kids are gifted with various degrees of incentive and/or innovative processes. 
 
