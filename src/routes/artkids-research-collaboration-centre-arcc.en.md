@@ -2,6 +2,7 @@
 title: ArtKids Research Collaboration Centre (ARCC)
 nav_label: Research Collaboration Centre
 thumbnail: /uploads/research.jpg
+changed: /uploads/research-2.jpg
 ---
 ArtKids~ICT has provided conducive environments for research collaborations between our young inventors and professional technologists. 
 
