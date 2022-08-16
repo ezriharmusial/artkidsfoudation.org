@@ -2,6 +2,7 @@
 title: ArtKids TechWorld
 nav_label: ArtKids TechWorld
 thumbnail: /uploads/techworld-africa.jpg
+changed: /uploads/techword-2.jpg
 ---
 ### Introduction
 
