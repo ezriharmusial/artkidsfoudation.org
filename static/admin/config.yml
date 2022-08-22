@@ -60,7 +60,7 @@ collections:
       - label: "Title Color"
         name: "color"
         widget: "select"
-        options: ["dark", "light"],
+        options: ["dark", "light"]
         default: ["light"]
       - name: title
         i18n: true
