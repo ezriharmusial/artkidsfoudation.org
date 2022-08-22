@@ -1,25 +1,50 @@
-<script>
-	import '../app.scss';
-	import { page } from '$app/stores';
+<script context="module">
+	import { getProjects } from "../metadata";
+
+	export async function load(context) {
+		const projects = getProjects('en')
+
+		return {
+			props: {
+				localProjects: projects
+			}
+		}
+	}
+</script>
+
+<script lang="ts">
 	import { onMount } from 'svelte';
 
-	import { locale, setRoutes } from '../stores/UI';
+	import { projects } from '../stores/UI';
 
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
-	import PageTransition from '../components/PageTransition.svelte';
 
+	export let localProjects
 
 	onMount(() => {
-		setRoutes($locale)
+		$projects = localProjects
 	})
 
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href="/logo-192.png" />
+ 	{#if $projects}
+	{#each $projects as project, i}
+		{#if i > 3}
+		<link rel="preload" as="image" href={project.thumbnail} />
+	  	{/if}
+    {/each}
+	{/if}
+</svelte:head>
+
+
 <Nav />
 
-<PageTransition url={$page.url}>
-<slot />
-</PageTransition>
+<!-- Wrapper -->
+<div class="wrapper">
+	<slot />
+</div>
 
 <Footer />
