@@ -34,15 +34,15 @@
 							<div class="menu-full">
 								<ul class="menu-full">
 									<li class="menu-item menu-item-has-children has-children">
-										<a class="splitting-text-anim-2" data-splitting="chars" href="#">Home</a>
-										<ul class="sub-menu">
+										<a class="splitting-text-anim-2" data-splitting="chars" href="/">Home</a>
+										<!-- <ul class="sub-menu">
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="index.html">Parallax Slider</a></li>
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="home-grid-slider.html">Grid Slider</a></li>
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="home-half-slider.html">Half Slider</a></li>
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="home-grid-fully-slider.html">Blur Horizontal Slider</a></li>
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="home-motion-slider.html">Distortion Slider</a></li>
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="home-portfolio.html">Portfolio Grid</a></li>
-										</ul>
+										</ul> -->
 									</li>
 									<li class="menu-item menu-item-has-children has-children">
 										<a class="splitting-text-anim-2" data-splitting="chars" href="#">Projects</a>
@@ -58,7 +58,7 @@
 											{/if}
 										</ul>
 									</li>
-									<li class="menu-item menu-item-has-children has-children">
+									<!-- <li class="menu-item menu-item-has-children has-children">
 										<a class="splitting-text-anim-2" data-splitting="chars" href="#">Works</a>
 										<ul class="sub-menu">
 											<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="works-2-column.html">Works (2 Columns)</a></li>
@@ -73,7 +73,7 @@
 									</li>
 									<li class="menu-item">
 										<a class="splitting-text-anim-2" data-splitting="chars" href="blog.html">Blog</a>
-									</li>
+									</li> -->
 								</ul>
 							</div>
 
@@ -85,8 +85,8 @@
 			<!-- social -->
 			<div class="menu-social-links">
 				<a href="https://instagram.com/" target="blank" class="scrolla-element-anim-1" title="Instagram">Instagram</a>
-				<a href="https://facebook.com/" target="blank" class="scrolla-element-anim-1" title="Facebook">Facebook</a>
-				<a href="https://twitter.com/" target="blank" class="scrolla-element-anim-1" title="Twitter">Twitter</a>
+				<a href="https://facebook.com/ArtKidsFoundation/" target="blank" class="scrolla-element-anim-1" title="Facebook">Facebook</a>
+				<a href="https://twitter.com/artkids" target="blank" class="scrolla-element-anim-1" title="Twitter">Twitter</a>
 				<a href="https://linkedin.com/" target="blank" class="scrolla-element-anim-1" title="Linkedin">Linkedin</a>
 			</div>
 
