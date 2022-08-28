@@ -18,7 +18,7 @@
 	$: if($projects) { projectIndex = $projects.findIndex(project => project.path == pathname) }
 
 	function nextProject(){
-		if($projects.length == projectIndex - 1)
+		if($projects.length == projectIndex + 1)
 			return 0
 		else
 			return projectIndex + 1

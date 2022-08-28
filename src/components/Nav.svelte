@@ -50,13 +50,6 @@ import { fade } from "svelte/transition";
 		return false;
 	};
 
-	$: console.log(
-	'active', active,
-	'no-touch', noTouch,
-	'visible', visible,
-	'has-scroll', visible,
-	'submenu open', open
-	)
 	$: innerHeight = 0
 </script>
 
