@@ -1,10 +1,35 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
+	import { afterUpdate, onMount } from 'svelte';
+
 	import { projects } from '../stores/UI';
+
+	import IntersectionObserver from "svelte-intersection-observer";
 
 	let projectIndex = -1
 	let pathname = ""
+	let elements = {
+			title: {
+				el: undefined,
+				intersecting: false
+			},
+			thumbnail: {
+				el: undefined,
+				intersecting: false
+			},
+			description: {
+				el: undefined,
+				intersecting: false
+			},
+			changed: {
+				el: undefined,
+				intersecting: false
+			},
+			nextProject: {
+				el: undefined,
+				intersecting: false
+			}
+		}
 
 	export let title
 	export let subtitle
@@ -23,10 +48,12 @@
 		else
 			return projectIndex + 1
 	}
+
+	$: console.log('elements', elements)
 </script>
 
 <svelte:head>
-<title>{title}</title>
+	<title>{title}</title>
 </svelte:head>
 
 <!-- Section Started Heading -->
@@ -34,12 +61,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+				<IntersectionObserver once element={elements.title.el} bind:intersecting={elements.title.intersecting}>
 				<!-- titles -->
-				<div class="h-titles">
-					{#if subtitle}<div class="h-subtitle red splitting-text-anim-1 scroll-animate-replace animate__active animate__animated" data-splitting="chars" data-animate="active">{subtitle}</div>{/if}
-					<div class="h-title splitting-text-anim-2 scroll-animate-replace animate__active animate__animated" data-splitting="chars" data-animate="active">{title}</div>
+				<div class="h-titles" bind:this={elements.title.el}>
+					{#if subtitle}<div class="h-subtitle red splitting-text-anim-1 scroll-animate-replace" class:animate__active={elements.title.intersecting} class:animate__animated={elements.title.intersecting} data-splitting="chars" data-animate="active">{subtitle}</div>{/if}
+					<div class="h-title splitting-text-anim-2 scroll-animate-replace" class:animate__active={elements.title.intersecting} class:animate__animated={elements.title.intersecting} data-splitting="chars" data-animate="active">{title}</div>
 				</div>
+				</IntersectionObserver>
 			</div>
 		</div>
 	</div>
@@ -47,10 +75,12 @@
 
 {#if thumbnail}
 <!-- Section Image Large -->
-<div class="section section-inner m-image-large" data-animate="active">
-	<div class="image">
-		<div class="img js-parallax" style="background-image: url({thumbnail});"></div>
-	</div>
+<div class="section section-inner m-image-large scrolla-element-anim-1 scroll-animate" data-animate="active" class:animate__active={elements.thumbnail.intersecting} class:animate__animated={elements.thumbnail.intersecting} >
+	<IntersectionObserver once element={elements.thumbnail.el} bind:intersecting={elements.thumbnail.intersecting}>
+		<div class="image" bind:this={elements.thumbnail.el}>
+			<div class="img js-parallax" style="background-image: url({thumbnail});"></div>
+		</div>
+	</IntersectionObserver>
 </div>
 {/if}
 
@@ -88,16 +118,18 @@
 <div class="section section-inner m-description">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
-				<div class="m-titles">
-					<div class="m-title scrolla-element-anim-1 scroll-animate-replace animate__active animate__animated" data-animate="active">Introduction</div>
+			<IntersectionObserver once element={elements.description.el} bind:intersecting={elements.description.intersecting}>
+				<div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
+					<div class="m-titles">
+						<div class="m-title scrolla-element-anim-1 scroll-animate-replace" data-animate="active" class:animate__active={elements.description.intersecting} class:animate__animated={elements.description.intersecting} >Introduction</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<div class="description-text scrolla-element-anim-1 scroll-animate-replace animate__active animate__animated" data-animate="active">
-					<slot />
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" bind:this={elements.description.el}>
+					<div class="description-text scrolla-element-anim-1 scroll-animate-replace" data-animate="active" class:animate__active={elements.description.intersecting} class:animate__animated={elements.description.intersecting} >
+						<slot />
+					</div>
 				</div>
-			</div>
+			</IntersectionObserver>
 		</div>
 	</div>
 </div>
@@ -134,11 +166,13 @@
 
 {#if changed}
 <!-- Section Image Large -->
-<div class="section section-inner m-image-large scrolla-element-anim-1 scroll-animate-replace animate__active animate__animated" data-animate="active">
+<IntersectionObserver once element={elements.changed.el} bind:intersecting={elements.changed.intersecting}>
+<div class="section section-inner m-image-large scrolla-element-anim-1 scroll-animate-replace" data-animate="active" bind:this={elements.changed.el} class:animate__active={elements.changed.intersecting} class:animate__animated={elements.changed.intersecting} >
 	<div class="image">
 		<div class="img js-parallax" style="background-image: url({changed});"></div>
 	</div>
 </div>
+</IntersectionObserver>
 {/if}
 
 <!-- Section Description -->
@@ -183,21 +217,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-2">
+				<IntersectionObserver once element={elements.nextProject.el} bind:intersecting={elements.nextProject.intersecting}>
 				<div class="h-titles h-navs">
 					{#if $projects && projectIndex != -1}
 					<a href="{$projects[nextProject()].path}">
-						<span class="nav-arrow scrolla-element-anim-1 scroll-animate-replace animate__active animate__animated" data-animate="active">Next Project</span>
-						<span class="h-title splitting-text-anim-2 scroll-animate-replace  animate__active animate__animated" data-splitting="chars" data-animate="active">{$projects[nextProject()].title}</span>
+						<span class="nav-arrow scrolla-element-anim-1 scroll-animate-replace" data-animate="active" class:animate__active={elements.nextProject.intersecting} class:animate__animated={elements.nextProject.intersecting} >Next Project</span>
+						<span class="h-title splitting-text-anim-2 scroll-animate-replace" data-splitting="chars" data-animate="active" bind:this={elements.nextProject.el} class:animate__active={elements.nextProject.intersecting} class:animate__animated={elements.nextProject.intersecting} >{$projects[nextProject()].title}</span>
 					</a>
 					{/if}
 				</div>
+				</IntersectionObserver>
 			</div>
 		</div>
 	</div>
 </div>
-
-<style>
-	.scroll-animate-replace {
-		opacity: 1 !important;
-	}
-</style>

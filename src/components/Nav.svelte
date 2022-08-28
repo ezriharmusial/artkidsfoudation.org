@@ -1,5 +1,5 @@
 <script lang="ts">
-import { fade } from "svelte/transition";
+	import { fade } from "svelte/transition";
 
 	import { projects } from "../stores/UI";
 
@@ -93,15 +93,15 @@ import { fade } from "svelte/transition";
 						<div class="menu-full" transition:fade>
 							<ul class="menu-full">
 								<li class="menu-item">
-									<a class="splitting-text-anim-2" data-splitting="chars" href="/" on:click={toggleMenu}>Home</a>
+									<a class="splitting-text-anim-2" class:animate__active={open} class:animate__animated={open}  data-splitting="chars" href="/" on:click={toggleMenu}>Home</a>
 								</li>
 								<li class="menu-item menu-item-has-children has-children" class:opened={open} class:closed={!open}>
-									<a class="splitting-text-anim-2" data-splitting="chars" href="#projects" on:click={clickChildren}>Projects</a>
+									<a class="splitting-text-anim-2" class:animate__active={open} class:animate__animated={open}  data-splitting="chars" href="#projects" on:click={clickChildren}>Projects</a>
 									<ul class="sub-menu" style:max-height={!open ? 0 : 'unset'} style:height={open ? $projects.length * 30 + 20 + 'px' : 'unset'}>
 										{#if $projects}
 										{#each $projects as project, i}
 										<li class="menu-item" style:max-height={!open ? 0: 'unset'} style:height={!open ? 0 : '20px'}>
-											<a class="splitting-text-anim-1" data-splitting="chars" title="go to {project.title}" href={project.path} on:click={toggleMenu} >
+											<a class="splitting-text-anim-1" class:animate__active={open} class:animate__animated={open} data-splitting="chars" title="go to {project.title}" href={project.path} on:click={toggleMenu} >
 												{project.nav_label || project.title}
 											</a>
 										</li>

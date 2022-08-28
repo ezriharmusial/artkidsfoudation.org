@@ -5,7 +5,7 @@
 	import { onMount, afterUpdate } from "svelte";
 	import imagesLoaded from 'imagesloaded'
 
-	import { scrolla } from '../lib/scrolla'
+	// import { scrolla } from '../lib/scrolla'
 
 	afterUpdate(() => {
 		// If we are in the Browser
@@ -21,10 +21,10 @@
 				/**
 				init Scrolla
 				**/
-				scrolla(document.querySelectorAll('.scroll-animate-replace'), {
-					once: true,
-					mobile: true
-				})
+				// scrolla(document.querySelectorAll('.scroll-animate-replace'), {
+					// once: true,
+					// mobile: true
+				// })
 			});
 		}
 	})
