@@ -7,11 +7,7 @@ import adapter from '@sveltejs/adapter-netlify';
 const config = {
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	preprocess: [
-		preprocess({
-			scss: {
-				// prependData: '@use "src/variables.scss" as *;'
-			}
-		}),
+		preprocess(),
 		mdsvex(mdsvexConfig)
 	],
 

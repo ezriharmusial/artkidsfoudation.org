@@ -1,24 +1,27 @@
 <script context="module">
 	import { getProjects } from "../metadata";
 
-	export async function load(context) {
+	export async function load() {
 		const projects = getProjects('en')
 
 		return {
 			props: {
-				localProjects: projects
+				localProjects: projects,
 			}
 		}
 	}
 </script>
 
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { afterUpdate, onMount } from 'svelte';
+	import { browser } from "$app/env";
 
 	import { projects } from '../stores/UI';
 
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
+	import Preloader from "../components/Preloader.svelte";
+	import Cursor from '../components/Cursor.svelte';
 
 	export let localProjects
 
@@ -26,19 +29,27 @@
 		$projects = localProjects
 	})
 
+
+	let splitting = null;
+
+	afterUpdate(async () => {
+        if (browser) {
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#dynamic_imports
+            const splittingModule = await import('splitting');
+            // This will trigger candle redraw if candles data was raced faster than uplot
+            splitting = splittingModule.default;
+			splitting()
+        }
+
+    });
 </script>
+
 
 <svelte:head>
 	<link rel="preload" as="image" href="/logo-192.png" />
- 	{#if $projects}
-	{#each $projects as project, i}
-		{#if i > 3}
-		<link rel="preload" as="image" href={project.thumbnail} />
-	  	{/if}
-    {/each}
-	{/if}
 </svelte:head>
 
+<Preloader />
 
 <Nav />
 
@@ -46,5 +57,7 @@
 <div class="wrapper">
 	<slot />
 </div>
+
+<Cursor />
 
 <Footer />

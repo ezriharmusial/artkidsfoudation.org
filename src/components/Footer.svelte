@@ -27,6 +27,9 @@
       color: darkslategray;
     }
   }
+	.scroll-animate-replace {
+		opacity: 1;
+	}
 </style>
 
 
@@ -39,42 +42,8 @@
 
           <!-- titles -->
           <div class="h-titles">
-            <CompanyInfo />
-            <div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active">Address:</div>
-            <div class="h-text scrolla-element-anim-1 scroll-animate" data-animate="active">Ridgewood Queens, <br>NY 11385, USA</div>
-          </div>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-
-          <!-- titles -->
-          <div class="h-titles">
-            <div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active">Follow Us:</div>
-          </div>
-
-          <!-- social -->
-          <div class="social-links footer-social-links">
-            <a target="_blank" href="https://instagram.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <i aria-hidden="true" class="fab fa-instagram"></i>
-            </a>
-            <a target="_blank" href="https://facebook.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <i aria-hidden="true" class="fab fa-facebook-f"></i>
-            </a>
-            <a target="_blank" href="https://twitter.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <i aria-hidden="true" class="fab fa-twitter"></i>
-            </a>
-            <a target="_blank" href="https://linkedin.com/" class="scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <i aria-hidden="true" class="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-
-          <!-- titles -->
-          <div class="h-titles">
-            <div class="h-subtitle scrolla-element-anim-1 scroll-animate" data-animate="active">{locale[lang].title}</div>
-            <div class="h-text scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div class="h-subtitle scrolla-element-anim-1 scroll-animate-replace" data-animate="active">{locale[lang].title}</div>
+            <div class="h-text scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
               <p>
                 <a class="button is-secondary has-text-black" title="{locale[lang].contactus}!" href="/{lang}/contact-us/">
                   <span class="icon">
@@ -88,8 +57,45 @@
           </div>
 
         </div>
+
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+
+          <!-- titles -->
+          <div class="h-titles">
+            <div class="h-subtitle scrolla-element-anim-1 scroll-animate-replace" data-animate="active">Follow Us:</div>
+          </div>
+
+          <!-- social -->
+          <div class="social-links footer-social-links">
+            <a target="_blank" href="https://instagram.com/" class="scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
+              <i aria-hidden="true" class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://facebook.com/" class="scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
+              <i aria-hidden="true" class="fab fa-facebook-f"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/" class="scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
+              <i aria-hidden="true" class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://linkedin.com/" class="scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
+              <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+
+          <!-- titles -->
+          <div class="h-titles">
+            <CompanyInfo />
+            <!-- <div class="h-subtitle scrolla-element-anim-1 scroll-animate-replace" data-animate="active">Address:</div> -->
+            <!-- <div class="h-text scrolla-element-anim-1 scroll-animate-replace" data-animate="active">Ridgewood Queens, <br>NY 11385, USA</div> -->
+          </div>
+
+        </div>
+
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="copyright-text scrolla-element-anim-1 scroll-animate" data-animate="active">
+          <div class="copyright-text scrolla-element-anim-1 scroll-animate-replace" data-animate="active">
             <span class="logo">
               Powered by <a class="brand has-text-weight-bold is-italic has-text-shadow" href="/" title="visit ArtKids Foundation Website?">
                 <span class="icon is-medium">

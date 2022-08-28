@@ -1,0 +1,22 @@
+{
+  "name": "bulma-artkids-2022",
+  "version": "1.0.0",
+  "description": "Custom Bulma Theme ArtKids 2022",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url app.scss app.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "bulma",
+    "artkids",
+    "2022"
+  ],
+  "author": "Ezri Harmusial",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  }
+}
