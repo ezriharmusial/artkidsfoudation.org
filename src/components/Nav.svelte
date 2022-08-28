@@ -148,20 +148,27 @@ import { fade } from "svelte/transition";
 </header>
 
 <style lang="scss">
+	.header {
+		top: 0 !important;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: rgba(0, 0, 0, .15);
+		backdrop-filter: blur(5px);
 
-	.logo-image a {
-		text-decoration: none;
-		font-family: "Roboto";
-		font-style: italic;
-		font-weight: 800;
-		font-size: 22px;
+		.logo-image a {
+			text-decoration: none;
+			font-family: "Roboto";
+			font-style: italic;
+			font-weight: 800;
+			font-size: 22px;
 
-		.artkids {
-			color: #e62d2b;
-		}
+			.artkids {
+				color: #e62d2b;
+			}
 
-		.foundation {
-			color: #ffd800;
+			.foundation {
+				color: #ffd800;
+			}
 		}
 	}
 </style>
