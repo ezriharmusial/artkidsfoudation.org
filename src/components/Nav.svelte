@@ -64,8 +64,7 @@ import { fade } from "svelte/transition";
 			<a href="/" on:click={() => {if(active){ toggleMenu()}}}>
 				<img src="/logo-192.png" alt="ArtKids Foundation: Funding Happiness" width="30" height="30">
 				<span class="logo-text">
-					<span class="artkids has-text-danger is-size-4">ArtKids</span>
-					<span class="foundation has-text-warning is-size-4">Foundation</span>
+					<span class="artkids">ArtKids</span><span class="foundation">Foundation</span>
 				</span>
 			</a>
 		</div>
@@ -148,12 +147,21 @@ import { fade } from "svelte/transition";
 </div>
 </header>
 
-<style>
+<style lang="scss">
 
 	.logo-image a {
 		text-decoration: none;
-		font-family: "Playfair Display";
-		font-weight: 600;
-		font-size: 18px
+		font-family: "Roboto";
+		font-style: italic;
+		font-weight: 800;
+		font-size: 22px;
+
+		.artkids {
+			color: #e62d2b;
+		}
+
+		.foundation {
+			color: #ffd800;
+		}
 	}
 </style>
