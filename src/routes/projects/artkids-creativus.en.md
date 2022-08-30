@@ -1,5 +1,7 @@
 ---
+color: light
 title: ArtKids CreativUs
+subtitle: Mutually Beneficial Ventures
 nav_label: ArtKids CreativUs
 thumbnail: /uploads/creativus.jpg
 changed: /uploads/creativus-2.jpg
