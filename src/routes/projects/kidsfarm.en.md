@@ -1,5 +1,7 @@
 ---
+color: light
 title: KidsFarm
+subtitle: basic principles of farming
 nav_label: KidsFarm
 thumbnail: /uploads/kidsfarm.jpg
 changed: /uploads/kidsfarm-2.jpg
