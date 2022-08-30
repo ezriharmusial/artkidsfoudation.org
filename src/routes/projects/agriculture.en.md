@@ -1,12 +1,11 @@
 ---
+color: light
 title: Agriculture
 subtitle: Farming for the future
 nav_label: Agriculture
 thumbnail: /uploads/agric.jpg
 changed: /uploads/agric-2.jpg
 ---
-### Introduction
-
 Undoubtedly, good food is the most essential when it concerns life and healthy-living. To live our lives, we require the nutrients contained in the foods we eat. The food we eat can either save us, weaken us or kill us.
 
 There are two major ways we can obtain quality non-GMO foods; either we pay high prices and buy them from organic food stores or we plant them by ourselves. 
