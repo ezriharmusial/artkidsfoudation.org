@@ -1,5 +1,7 @@
 ---
+color: dark
 title: EmpowerME (0%-interest Loans)
+subtitle: thrive the business
 nav_label: EmpowerME
 thumbnail: /uploads/empowerme.jpg
 changed: /uploads/empowerme-2.jpg
