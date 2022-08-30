@@ -1,4 +1,5 @@
 ---
+color: light
 title: Other
 nav_label: Other
 ---
