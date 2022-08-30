@@ -1,5 +1,7 @@
 ---
+color: light
 title: "ArtKids AudioVisual Studio #777"
+subtitle: Producing Creativity
 nav_label: AAVS777
 thumbnail: /uploads/audiovisualstudio.jpg
 changed: /uploads/audiovisualstudio-2.jpg
