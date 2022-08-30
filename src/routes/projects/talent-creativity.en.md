@@ -1,11 +1,11 @@
 ---
+color: light
 title: Talent&Creativity
+subtitle: talents hold values
 nav_label: Talent&Creativity
 thumbnail: /uploads/talent-and-creativity.jpg
 changed: /uploads/talent-and-creativity-2.jpg
 ---
-### Introduction
-
 Every human being on Earth is naturally endowed with talents and creativity. 
 
 The purpose of this natural endowment is to add value to the everyone. Via this natural gifts as added values, one becomes a sustainer of oneself and contributor to his or her community.

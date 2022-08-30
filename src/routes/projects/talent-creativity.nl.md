@@ -1,5 +1,6 @@
 ---
 title: Talent&Creativity
+subtitle: talents hold values
 nav_label: Talent&Creativity
 ---
 Invoering
