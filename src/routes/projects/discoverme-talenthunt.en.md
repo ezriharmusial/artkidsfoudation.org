@@ -1,5 +1,7 @@
 ---
+color: light
 title: " DiscoverME (TalentHunt)"
+subtitle: identify, showcase, sponsor and promote upcoming artists
 nav_label: " DiscoverME"
 thumbnail: /uploads/discover-me-2.jpg
 changed: /uploads/discover-me.jpg
