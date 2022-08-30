@@ -1,5 +1,7 @@
 ---
+color: dark
 title: "ArtKids Capacity Building Initiatives (ACBi) "
+subtitle: Developing our natural gifts
 nav_label: ACBi
 thumbnail: /uploads/capacity.jpg
 changed: /uploads/capacity-2.jpg
