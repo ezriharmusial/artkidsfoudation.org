@@ -12,7 +12,6 @@ import { onMount } from 'svelte';
 		let module = await import('splitting');
 		splitting = module.default;
 		if (splitting){
-			console.log('splitting', splitting)
 			splitting()
 		}
 	});
@@ -55,7 +54,6 @@ import { onMount } from 'svelte';
 
 	// function run on progress
 	const onProgress = (swiper) => {
-		console.log('swiper-slides', swiper.slides)
 		let slides = swiper.detail[0].$el[0].querySelectorAll('.swiper-slide')
 		for (let i = 0; i < slides.length; i++) {
 			let slideProgress = slides[i].progress,

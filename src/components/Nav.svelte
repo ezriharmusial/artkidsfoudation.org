@@ -14,7 +14,6 @@
 	const toggleMenu = () => {
 		let body:HTMLBodyElement = document.querySelector('body')
 		if(active) {
-			console.log('de-activating menu')
 			active = false
 			hasScroll= false
 			body.classList.remove('no-scroll');
@@ -24,7 +23,6 @@
 				noTouch = false
 			}, 1000);
 		} else {
-			console.log('activating menu')
 			active = true
 			body.classList.add('no-scroll');
 			visible = true

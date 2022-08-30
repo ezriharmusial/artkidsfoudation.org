@@ -5,6 +5,7 @@
 	import { projects } from '../stores/UI';
 
 	import IntersectionObserver from "svelte-intersection-observer";
+	import { browser } from '$app/env';
 
 	let projectIndex = -1
 	let pathname = ""
@@ -36,8 +37,20 @@
 	export let thumbnail
 	export let changed
 
-	onMount(() => {
+	let jarallax
+
+	onMount(async () => {
 		pathname = $page.url.pathname
+		let module = await import('jarallax');
+		jarallax = module.jarallax;
+		let elements = document.querySelectorAll('.js-parallax')
+		if (jarallax && elements){
+			console.log('jarralax elements', elements)
+			jarallax(elements, {
+				speed: 0.65,
+				type: 'scroll'
+			})
+		}
 	})
 
 	$: if($projects) { projectIndex = $projects.findIndex(project => project.path == pathname) }

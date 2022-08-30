@@ -28,7 +28,7 @@
     // init Interval
     onMount(() => {
         if(browser) {
-            console.log('initted')
+            // console.log('initted')
             updateInterval = setInterval(move,1000/60);
         }
     })

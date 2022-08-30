@@ -1087,6 +1087,13 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
+jarallax@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/jarallax/-/jarallax-2.0.4.tgz#8ea760480119d0f0b3493c72d99dfce768a1b214"
+  integrity sha512-vvQXYiRsjhmuD6vmgnkbzFWUBTmOXUFK4ncD8bUQ74rUAaRHFAwE3m4pbOqmxecdljWXtufA4EYVu67+L8PKBA==
+  dependencies:
+    video-worker "^2.0.0"
+
 js-yaml@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
@@ -1948,6 +1955,11 @@ vfile-message@^2.0.4:
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-stringify-position "^2.0.0"
+
+video-worker@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/video-worker/-/video-worker-2.0.0.tgz#22bce64fa1a0b04f46f0066c37de72a3a8463241"
+  integrity sha512-hdah9eSOaxDgj8SSE82HQkj4yzgXVK91ceMqJc6/0Q+M2710LTy7J1Jxgw5RDSPRfgMc68YuFtgptnodsje5Fw==
 
 vite@^2.9.10:
   version "2.9.12"
