@@ -1,5 +1,7 @@
 ---
+color: light
 title: ArtKids Research Collaboration Centre (ARCC)
+subtitle: turn concepts into inventions
 nav_label: Research Collaboration Centre
 thumbnail: /uploads/research.jpg
 changed: /uploads/research-2.jpg
