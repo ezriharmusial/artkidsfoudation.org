@@ -104,12 +104,12 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					<div class="details-label">
-						<strong>Client</strong> Envato
+						<strong>Client</strong> ArtKids Foundatoin
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					<div class="details-label">
-						<strong>Category</strong> Photography
+						<strong>Category</strong> Non-Governmental
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
@@ -119,7 +119,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					<div class="details-label">
-						<strong>Website</strong> bslthemes.com
+						<strong>Website</strong> artkidsfoundation.org
 					</div>
 				</div>
 			</div>
