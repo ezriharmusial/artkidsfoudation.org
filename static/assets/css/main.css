@@ -1544,7 +1544,8 @@ hr {
 }
 
 .dark-first .header .header__builder .logo-image img {
-    filter: brightness(0);
+    /* TODO: Is this Lazyload Mechanism?
+	filter: brightness(0); */
 }
 
 .menu-btn span {
