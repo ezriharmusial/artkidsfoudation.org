@@ -59,15 +59,18 @@
 
 		<!-- logo -->
 		<div class="logo-image">
-			<a href="/" on:click={() => {if(active){ toggleMenu()}}}>
-				<img src="/logo-192.png" alt="ArtKids Foundation: Funding Happiness" width="30" height="30">
-				<span class="logo-text">
-					<span class="artkids">ArtKids</span><span class="foundation">Foundation</span>
-				</span>
+			<a class="" href="/" on:click={() => {if(active){ toggleMenu()}}}>
+				<figure class="image icon-text">
+					<img src="/logo-192.png" alt="ArtKids Foundation: Funding Happiness" width="30" height="30">
+					<span class="logo-text">
+						<span class="artkids">ArtKids</span><span class="foundation">Foundation</span>
+					</span>
+				</figure>
 			</a>
 		</div>
 
 		<!-- menu btn -->
+		<!-- Make 3 bars, correct collors -->
 		<a href="#" class="menu-btn full"
 		class:active
 		class:no-touch={noTouch}
