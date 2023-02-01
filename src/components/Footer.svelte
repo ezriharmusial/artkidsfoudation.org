@@ -63,7 +63,7 @@
 							<div class="h-subtitle scrolla-element-anim-1 scroll-animate-replace" data-animate="active" class:animate__active={elements.contact.intersecting} class:animate__animated={elements.contact.intersecting}>{locale[lang].title}</div>
 							<div class="h-text scrolla-element-anim-1 scroll-animate-replace" data-animate="active" bind:this={elements.contact.el} class:animate__active={elements.contact.intersecting} class:animate__animated={elements.contact.intersecting}>
 								<p>
-									<a class="button is-secondary has-text-black" title="{locale[lang].contactus}!" href="/{lang}/contact-us/">
+									<a class="button is-secondary has-text-black" title="{locale[lang].contactus}!" href="/contact/">
 										<span class="icon">
 											<!-- <Icon client:only icon={faWeixin} /> -->
 										</span>

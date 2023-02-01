@@ -128,11 +128,10 @@
 </div>
 
 <!-- Section Description -->
-<div class="section section-inner m-description">
-	<div class="container">
-		<div class="row">
+<div class="section">
+	<div class="px-24">
 			<IntersectionObserver once element={elements.description.el} bind:intersecting={elements.description.intersecting}>
-				<div class="col-xs-12 col-sm-12 col-md-12 align-left col-lg-12">
+				<div class="w-full align-left">
 					<div class="m-titles">
 						<div class="m-title scrolla-element-anim-1 scroll-animate-replace" data-animate="active" class:animate__active={elements.description.intersecting} class:animate__animated={elements.description.intersecting} >Introduction</div>
 					</div>
@@ -143,7 +142,6 @@
 					</div>
 				</div>
 			</IntersectionObserver>
-		</div>
 	</div>
 </div>
 

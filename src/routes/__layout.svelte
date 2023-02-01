@@ -13,6 +13,10 @@
 </script>
 
 <script lang="ts">
+	// import "../sass/app.css"
+	import '@skeletonlabs/skeleton/themes/theme-crimson.css';
+	import '@skeletonlabs/skeleton/styles/all.css';
+	import '../app.postcss';
 	import { afterUpdate, onMount } from 'svelte';
 	import { browser } from "$app/env";
 
@@ -22,6 +26,7 @@
 	import Footer from '../components/Footer.svelte';
 	import Preloader from "../components/Preloader.svelte";
 	import Cursor from '../components/Cursor.svelte';
+	import { AppShell } from "@skeletonlabs/skeleton";
 
 	export let localProjects
 
@@ -51,13 +56,20 @@
 
 <Preloader />
 
-<Nav />
 
-<!-- Wrapper -->
-<div class="wrapper">
-	<slot />
-</div>
+<AppShell>
+	<svelte:fragment slot="header"><Nav /></svelte:fragment>
+	<!-- <svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment> -->
+	<!-- <svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment> -->
+	<!-- <svelte:fragment slot="pageHeader"></svelte:fragment> -->
+	<!-- Router Slot -->
+	<div class="wrapper">
+		<slot />
+	</div>
+	<!-- ---- / ---- -->
+	<!-- <svelte:fragment slot="pageFooter">Page Footer</svelte:fragment> -->
+	<svelte:fragment slot="footer"><Footer /></svelte:fragment>
+</AppShell>
+
 
 <Cursor />
-
-<Footer />

@@ -132,7 +132,7 @@
     <div class="column">
       <div class="field">
         <label class="label" for="subject">
-          {locale[$lang].reason}
+          {locale[lang].reason}
         </label>
         <div class="control has-icons-left">
           <div class="select">
@@ -163,7 +163,7 @@
                 PowerMyCommunity
                 </option>
                 <option value="Other...">
-                {locale[$lang].other}...
+                {locale[lang].other}...
                 </option>
               </select>
             </span>
@@ -175,21 +175,21 @@
       </div>
       <div class="field">
         <div class="label" for="name">
-          {locale[$lang].name}
+          {locale[lang].name}
           <sup>
             *
           </sup>
         </div>
         <div class="control has-icons-left has-icons-right">
           <span class="name">
-            <input class="input required requiredField" type="text" id="name" name="name" size="40" aria-required="true" aria-invalid="false" placeholder="{locale[$lang].your} {locale[$lang].name}*" disabled={loading || success}>
+            <input class="input required requiredField" type="text" id="name" name="name" size="40" aria-required="true" aria-invalid="false" placeholder="{locale[lang].your} {locale[lang].name}*" disabled={loading || success}>
           </span>
           <br>
           <span class="icon is-small is-left">
             <!-- <Icon client:only icon={faUser} /> -->
           </span>
           <p class="help is-calm">
-            <sup>*)</sup> {locale[$lang].required}
+            <sup>*)</sup> {locale[lang].required}
           </p>
         </div>
       </div>
@@ -202,24 +202,24 @@
         </label>
         <div class="control has-icons-left has-icons-right">
           <span class="email">
-            <input class="input required requiredField" type="email" id="email" name="email" aria-required="true" aria-invalid="false" placeholder="{locale[$lang].your} Email*" disabled={loading || success}>
+            <input class="input required requiredField" type="email" id="email" name="email" aria-required="true" aria-invalid="false" placeholder="{locale[lang].your} Email*" disabled={loading || success}>
           </span>
           <br>
           <span class="icon is-small is-left">
             <!-- <Icon client:only icon={faEnvelope} /> -->
           </span>
           <p class="help is-calm">
-            <sup>*)</sup> {locale[$lang].required}
+            <sup>*)</sup> {locale[lang].required}
           </p>
         </div>
       </div>
       <div class="field">
         <label class="label" for="telephone">
-          {locale[$lang].telephone}
+          {locale[lang].telephone}
         </label>
         <div class="control has-icons-left has-icons-right">
           <span class="telephone">
-            <input class="input" type="tel" pattern="[0-9]*" id="telephone" name="telephone" aria-invalid="false" placeholder="{locale[$lang].your} {locale[$lang].telephone}" disabled={loading || success}>
+            <input class="input" type="tel" pattern="[0-9]*" id="telephone" name="telephone" aria-invalid="false" placeholder="{locale[lang].your} {locale[lang].telephone}" disabled={loading || success}>
           </span>
           <span class="icon is-small is-left">
             <!-- <Icon client:only icon={faPhone} /> -->
@@ -230,11 +230,11 @@
     <div class="column">
       <div class="field">
         <label class="label" for="message">
-          {locale[$lang].message}
+          {locale[lang].message}
         </label>
         <div class="control has-icons-left">
           <span class="message">
-            <textarea class="textarea" id="message" name="message" cols="40" rows="10" aria-invalid="false" placeholder="{locale[$lang].your} {locale[$lang].message} {locale[$lang].toUs}" disabled={loading || success}></textarea>
+            <textarea class="textarea" id="message" name="message" cols="40" rows="10" aria-invalid="false" placeholder="{locale[lang].your} {locale[lang].message} {locale[lang].toUs}" disabled={loading || success}></textarea>
           </span>
         </div>
       </div>
@@ -244,20 +244,20 @@
       <div class="field">
         <label class="checkbox" for="consent">
           <input type="checkbox" id="consent" name="consent" bind:checked={consent} disabled={loading || success}>
-          { locale[$lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[$lang].store_use } <i>{subject}</i>.
+          { locale[lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[lang].store_use } <i>{subject}</i>.
         </label>
       </div>
 
       <div class="field">
         <label class="checkbox" for="sendmail">
           <input type="checkbox" id="sendmail" name="sendmail" bind:checked={sendMail} disabled={loading || success}>
-          { locale[$lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[$lang].email_registration }.
+          { locale[lang].consent } <a href="https://artkidsfoundation.org/">ArtKids Foundation</a> { locale[lang].email_registration }.
         </label>
       </div>
 
       <div class="field">
         <div class="control">
-          <input type="submit" name="submit" value={(!consent || !sendMail) ? locale[$lang].giveConsent : locale[$lang].registerFor + " " + subject } class="button is-secondary" disabled={!consent || !sendMail || loading || success}>
+          <input type="submit" name="submit" value={(!consent || !sendMail) ? locale[lang].giveConsent : locale[lang].registerFor + " " + subject } class="button is-secondary" disabled={!consent || !sendMail || loading || success}>
         </div>
       </div>
 
@@ -266,21 +266,21 @@
   <div class="screen-reader-response">
     {#if loading }
       <div class="notification is-info" transition:blur>
-        <p>{ locale[$lang].loading }...</p>
+        <p>{ locale[lang].loading }...</p>
       </div>
     {/if}
     {#if error }
       <div class="notification is-danger" transition:blur>
         <button class="delete" on:click={reset}></button>
-        <p><b>{ locale[$lang].error }</b></p>
-        <p>{ locale[$lang].tryEmail }</p>
+        <p><b>{ locale[lang].error }</b></p>
+        <p>{ locale[lang].tryEmail }</p>
       </div>
     {/if}
     {#if success }
       <div class="notification is-success" transition:blur>
         <button class="delete" on:click={reset}></button>
-        <p><b>{ locale[$lang].thankyou }</b></p>
-        <p>{ locale[$lang].confirmation }<a href="/contact-us/" title="relaod form" on:click|preventDefault={reset}>{ locale[$lang].register }</a> { locale[$lang].someone }someone Else</p>
+        <p><b>{ locale[lang].thankyou }</b></p>
+        <p>{ locale[lang].confirmation }<a href="/contact/" title="relaod form" on:click|preventDefault={reset}>{ locale[lang].register }</a> { locale[lang].someone }someone Else</p>
       </div>
     {/if}
   </div>

@@ -84,10 +84,10 @@
 		class:animate-active={hasScroll}
 		class:visible>
 
-		<div class="menu-full-container" style:overlfow={open ? 'visible' : 'auto'}>
+		<div class="menu-full-container" style="height:100vh;" style:overlfow={open ? 'visible' : 'auto'}>
 			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-1">
+				<div class="flex">
+					<div class="w-full xs:w-full lg:w-10/12">
 
 						<!-- menu full -->
 						{#if active}
@@ -110,7 +110,10 @@
 										{/if}
 									</ul>
 								</li>
-								<!-- <li class="menu-item menu-item-has-children has-children">
+								<li class="menu-item">
+									<a class="splitting-text-anim-2" class:animate__active={open} class:animate__animated={open}  data-splitting="chars" href="/contact" on:click={toggleMenu}>Contact</a>
+								</li>
+									<!-- <li class="menu-item menu-item-has-children has-children">
 									<a class="splitting-text-anim-2" data-splitting="chars" href="#">Works</a>
 									<ul class="sub-menu">
 										<li class="menu-item"><a class="splitting-text-anim-1" data-splitting="chars" href="works-2-column.html">Works (2 Columns)</a></li>
